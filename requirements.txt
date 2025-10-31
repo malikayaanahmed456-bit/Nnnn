@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+gradio>=3.0
