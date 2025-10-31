@@ -45,7 +45,7 @@ import httpx
 
 load_dotenv()
 
-ORATOR_API_KEY = os.getenv("ORATOR_API_KEY")
+ORATOR_API_KEY = os.getenv("sk_api_61ca8d1b81af22adbff32d1d73628d5d5d08e8fe4ed29aa7dea0a29c728cacea")
 ORATOR_TTS_ENDPOINT = os.getenv("ORATOR_TTS_ENDPOINT", "https://api.orator.example/v1/tts")
 
 app = FastAPI(title="Urdu to Speech AI (Lightweight)")
